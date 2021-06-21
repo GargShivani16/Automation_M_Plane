@@ -1,0 +1,15 @@
+<rpc xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+<file-download xmlns="urn:o-ran:file-management:1.0">     
+<local-logical-file-path>/home/root/</local-logical-file-path>
+<remote-file-path>sftp://vvdn@192.168.1.80:22/home/vvdn/Downloads/O-RAN-WG4.MP.0-v04.00.pdf</remote-file-path>
+  <password>
+    <password>vvdntech</password>
+  </password>
+<server>
+  <keys>
+    <algorithm>rsa2048</algorithm>
+<public-key>AAAAB3NzaC1yc2EAAAADAQABAAABAQCzcw5Y85D0HtNmv8qTpd5rBhuHRBVpu2Ri10awjlLbdtkE73eNVsqRMlfCNdk3gUpP14XUQKwzdqmKkv4PHarx3yRjAgVCt69U+HIUJArBgb0ZEJzeH0cjigAFGGsGV2O7AsX4Hcyv14IDL4EecyMxHQov/fO0qzXbg6cOCBqm2VnFKzImYyvE9XZra1xtmghfEwmQE4JaG0dtRUVDBVRXPhnm9mUsydl+KyXxm8No34yzL5JxGGgtleEAJSjS9z59MUBD/Pa7yhHpx7seKjq/nPP8WhNf+v/kMmGIwvp+zj8mtKe6B9557Ws/84uPAcCj+oV+F4WvtDqqWxXSdqkj</public-key>
+  </keys>
+</server>
+</file-download>
+</rpc>

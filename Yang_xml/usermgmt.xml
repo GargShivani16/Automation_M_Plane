@@ -1,0 +1,26 @@
+<users xmlns="urn:o-ran:user-mgmt:1.0">
+ <user>                                                       
+       <name>oranuser</name>
+       <account-type>PASSWORD</account-type>                                         
+       <password>oranuser</password>                              
+       <enabled>true</enabled>                                    
+ </user>
+ <user>
+      <name>Operator</name>
+      <password>admin123</password>
+     <account-type>PASSWORD</account-type>
+<enabled>true</enabled>
+   </user>
+   <user>
+       <name>Observor</name>
+       <password>admin123</password>
+      <account-type>PASSWORD</account-type>
+       <enabled>true</enabled>
+   </user>
+   <user>
+       <name>Installer</name>
+       <password>wireless123</password>
+      <account-type>PASSWORD</account-type>
+       <enabled>true</enabled>
+   </user>                                                      
+</users>

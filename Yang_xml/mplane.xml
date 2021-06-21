@@ -1,0 +1,12 @@
+<mplane-info xmlns="urn:o-ran:mplane-interfaces:1.0">
+<m-plane-interfaces>
+  <m-plane-sub-interfaces>
+    <interface-name>eth0.120</interface-name>
+    <sub-interface>120</sub-interface>
+  </m-plane-sub-interfaces>
+  <m-plane-ssh-ports>
+    <call-home-ssh-port>4334</call-home-ssh-port>
+    <server-ssh-port>830</server-ssh-port>
+  </m-plane-ssh-ports>
+</m-plane-interfaces>
+</mplane-info>
